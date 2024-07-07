@@ -1,3 +1,5 @@
+/* Structure */
+
 body {
     display: flex;
     flex-direction: column;
@@ -7,10 +9,37 @@ body {
 
 nav {
     display: flex;
+    padding: 20px;
+    justify-content: space-between;
+    align-items: center;
+}
+
+nav img {
+    height: 75px;
+}
+
+.nav-logo {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+
+ul {
+    display: flex;
+    gap: 20px;
+    list-style-type: none;
+}
+
+li a {
+    text-decoration: none;
 }
 
 header {
     display: flex;
+}
+
+header img {
+    height: 200px;
 }
 
 .info {
@@ -28,4 +57,22 @@ header {
 
 footer {
     display: flex;
+}
+
+/* Color and Font Style*/
+
+nav, header, footer {
+    background-color: #1F2937;
+}
+
+.nav-logo, .ec-header {
+    color: #F9FAF8;
+}
+
+li a, .ec-body {
+    color: #E5E7EB;
+}
+
+.nav-logo {
+    font-size: 24px;
 }
