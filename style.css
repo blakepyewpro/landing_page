@@ -10,7 +10,7 @@ body {
 
 nav {
     display: flex;
-    padding: 20px;
+    padding: 20px 10%;
     justify-content: space-between;
     align-items: center;
 }
@@ -39,7 +39,7 @@ header {
     display: flex;
     justify-content: center;
     gap: 40px;
-    padding: 40px;
+    padding: 60px;
 }
 
 .eyecatch {
@@ -61,6 +61,7 @@ header {
 header img {
     height: 300px;
     border-radius: 8px;
+    box-shadow: 4px 4px 4px #141414
 }
 
 .info {
@@ -89,6 +90,10 @@ header img {
 
 .quote {
     display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-end;
+    padding: 60px 20%;
 }
 
 .cta {
@@ -97,6 +102,7 @@ header img {
 
 footer {
     display: flex;
+    justify-content: center;
 }
 
 /* Color and Font Style*/
@@ -144,4 +150,20 @@ li a, .ec-body {
 .card img {
     border: 4px solid #3882f6;
     border-radius: 8px;
+}
+
+.quote {
+    background-color: #e5e7eb;
+    color: #1f2937;
+    font-size: 36px;
+}
+
+.quote-text {
+    font-style: italic;
+    font-weight: lighter;
+    text-align: justify;
+}
+
+.quote-source {
+    font-weight: bolder;
 }
