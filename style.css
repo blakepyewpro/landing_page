@@ -116,6 +116,7 @@ header img {
 footer {
     display: flex;
     justify-content: center;
+    padding:20px;
 }
 
 /* Color and Font Style*/
@@ -204,9 +205,14 @@ li a, .ec-body {
 .cta-button {
     flex-basis: auto;
     background-color: #3882f6;
-    color: #E5E7EB;
+    color: #F9FAF8;
     font-size: 18px;
-    border: 2px solid #E5E7EB;
+    border: 2px solid #F9FAF8;
     border-radius: 8px;
     text-wrap: nowrap;
+}
+
+footer {
+    color: #E5E7EB;
+    font-size: 18px;
 }
